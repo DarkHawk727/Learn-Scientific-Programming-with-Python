@@ -14,7 +14,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 ## Chapter 2: The Core Python Language I
 - [X] 2.1 - The Python Shell
 - [X] 2.2 - Numbers, Variables, Comparisons, and Logic
-- [ ] 2.3 - Python Obkects I: Strings
+- [ ] 2.3 - Python Objects I: Strings
 - [ ] 2.4 - Python Objects II - Listys, Tuples, and Loops
 - [ ] 2.5 - Control Flow
 - [ ] 2.6 - File Input/Output
