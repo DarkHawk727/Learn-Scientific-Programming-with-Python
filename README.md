@@ -4,8 +4,7 @@ Learn to master basic programming tasks from scratch with real-life, scientifica
 Repository for the questions and exercises for the 2nd Edition of Learn Scientific Programming with Python (since all of them aren't included).
 
 For more info, visit [scipython.com](https://scipython.com/).
- # Sections
- 
+
 ## Chapter 1: Introduction
 - [X] 1.1 - About this Book
 - [X] 1.2 - About Python
