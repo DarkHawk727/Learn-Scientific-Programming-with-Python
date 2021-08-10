@@ -15,7 +15,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 2.1 - The Python Shell
 - [X] 2.2 - Numbers, Variables, Comparisons, and Logic
 - [X] 2.3 - Python Objects I: Strings
-- [ ] 2.4 - Python Objects II - Listys, Tuples, and Loops
+- [X] 2.4 - Python Objects II - Lists, Tuples, and Loops
 - [ ] 2.5 - Control Flow
 - [ ] 2.6 - File Input/Output
 - [ ] 2.7 - Functions
