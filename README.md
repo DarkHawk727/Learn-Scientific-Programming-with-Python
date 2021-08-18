@@ -18,7 +18,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 2.4 - Python Objects II - Lists, Tuples, and Loops
 - [X] 2.5 - Control Flow
 - [X] 2.6 - File Input/Output
-- [ ] 2.7 - Functions
+- [X] 2.7 - Functions (Sorry about the super long output for P2.7.2)
 
 ## Chapter 3: Interlude: Simple Plots and Charts
 - [ ] 3.1 - Basic Plotting
