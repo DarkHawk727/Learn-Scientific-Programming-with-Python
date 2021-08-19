@@ -21,8 +21,8 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 2.7 - Functions (Sorry about the super long output for P2.7.2)
 
 ## Chapter 3: Interlude: Simple Plots and Charts
-- [ ] 3.1 - Basic Plotting
-- [ ] 3.2 - Labels, Legends, and Customization
+- [X] 3.1 - Basic Plotting
+- [X] 3.2 - Labels, Legends, and Customization
 - [ ] 3.3 - More Advanced Plotting
 
 ## Chapter 4: The Core Python Language II
