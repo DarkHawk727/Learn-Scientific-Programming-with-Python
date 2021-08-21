@@ -26,9 +26,13 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 3.3 - More Advanced Plotting
 
 ## Chapter 4: The Core Python Language II
-- [ ] 4.1 - Errors and Exceptions
+- [X] 4.1 - Errors and Exceptions
 - [ ] 4.2 - Python Objects III: Dictionaries and Sets
 - [ ] 4.3 - Pythonic Idioms: "Syntactic Sugar"
 - [ ] 4.4 - Operating-System Services
 - [ ] 4.5 - Modules and Packages
 - [ ] 4.6 - An introduction to Object-Oriented Programming
+
+## Chapter 5: IPython and Jupyter Notebook
+ - [ ] 5.1 - IPython
+ - [ ] 5.2 - JupyterNotebook
