@@ -28,7 +28,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 ## Chapter 4: The Core Python Language II
 - [X] 4.1 - Errors and Exceptions
 - [X] 4.2 - Python Objects III: Dictionaries and Sets
-- [ ] 4.3 - Pythonic Idioms: "Syntactic Sugar"
+- [X] 4.3 - Pythonic Idioms: "Syntactic Sugar"
 - [ ] 4.4 - Operating-System Services
 - [ ] 4.5 - Modules and Packages
 - [ ] 4.6 - An introduction to Object-Oriented Programming
