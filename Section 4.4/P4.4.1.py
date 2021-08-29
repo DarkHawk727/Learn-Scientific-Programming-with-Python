@@ -1,6 +1,11 @@
 import sys
 
-n = int(sys.argv[1])
+n = sys.argv[1]
+
+try:
+   n = int(n)
+except ValueError:
+   print("User string is not number")
 
 while n > 0:
     if n == 1:
