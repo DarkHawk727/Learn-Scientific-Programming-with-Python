@@ -6,10 +6,10 @@ Repository for the questions and exercises for the 2nd Edition of Learn Scientif
 For more info, visit [scipython.com](https://scipython.com/).
 
 ## Chapter 1: Introduction
-- [X] 1.1 - About this Book
-- [X] 1.2 - About Python
-- [X] 1.3 - Installing Python
-- [X] 1.4 - The Command Line
+- [X] 1.1 - About this Book (No Questions or Exercises)
+- [X] 1.2 - About Python (No Questions or Exercises)
+- [X] 1.3 - Installing Python (No Questions or Exercises)
+- [X] 1.4 - The Command Line (No Questions or Exercises)
 
 ## Chapter 2: The Core Python Language I
 - [X] 2.1 - The Python Shell
@@ -18,7 +18,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 2.4 - Python Objects II - Lists, Tuples, and Loops
 - [X] 2.5 - Control Flow
 - [X] 2.6 - File Input/Output
-- [X] 2.7 - Functions (Sorry about the super long output for P2.7.2)
+- [X] 2.7 - Functions
 
 ## Chapter 3: Interlude: Simple Plots and Charts
 - [X] 3.1 - Basic Plotting
@@ -35,7 +35,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 
 ## Chapter 5: IPython and Jupyter Notebook
  - [ ] 5.1 - IPython
- - [X] 5.2 - JupyterNotebook
+ - [X] 5.2 - JupyterNotebook (No Questions or Exercises)
 
 ## Chapter 6: NumPy
  - [ ] 6.1 - Basic Array Methods
