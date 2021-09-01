@@ -47,27 +47,27 @@ For more info, visit [scipython.com](https://scipython.com/).
  - [ ] 6.7 - Discrete Fourier Transforms
 
 ## Chapter 7: Matplolib
- -  7.1 - Line Plots and Scatter Plots (No Questions or Exercises)
+ - 7.1 - Line Plots and Scatter Plots (No Questions or Exercises)
  - 7.2 - Plot Customization and Refinement (No Questions or Exercises)
  - 7.3 - Bar Charts, Pie Charts, and Polar Plots (No Questions or Exercises)
  - [ ] 7.4 - Annotating Plots
  - [ ] 7.5 - Countour Plots and Heatmaps
- -  7.6 - Three-Dimensional Plots (No Questions or Exercises)
+ - 7.6 - Three-Dimensional Plots (No Questions or Exercises)
  - [ ] 7.7 - Animation
 
 ## Chapter 8: SciPy
  - [ ] 8.1 - Physical Constants and Special Functions
  - [ ] 8.2 - Integration and Ordinary Differential Equations
- - [ ] 8.3 - Interpolation
+ - 8.3 - Interpolation
  - [ ] 8.4 - Optimization, Data-Fitting and Root-Finding
 
 ## Chapter 9: Data Analysis with pandas:
- - [ ] 9.1 - Introduction to pandas
+ - 9.1 - Introduction to pandas
  - [ ] 9.2 - Reading and Writing `Series` and `DataFrames`
  - [ ] 9.3 - More Advanced Indexing
  - [ ] 9.4 - Data Cleaning and Exploration
  - [ ] 9.5 - Data Grouping and Aggregation
- - [ ] 9.6 - Examples
+ - 9.6 - Examples
 
 ## Chapter 10: General Scientific Programing
  - [ ] 10.1 - Floating-Point Arithmetic
