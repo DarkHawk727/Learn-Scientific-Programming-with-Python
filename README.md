@@ -6,10 +6,10 @@ Repository for the questions and exercises for the 2nd Edition of Learn Scientif
 For more info, visit [scipython.com](https://scipython.com/).
 
 ## Chapter 1: Introduction
-- [X] 1.1 - About this Book (No Questions or Exercises)
-- [X] 1.2 - About Python (No Questions or Exercises)
-- [X] 1.3 - Installing Python (No Questions or Exercises)
-- [X] 1.4 - The Command Line (No Questions or Exercises)
+- 1.1 - About this Book (No Questions or Exercises)
+- 1.2 - About Python (No Questions or Exercises)
+- 1.3 - Installing Python (No Questions or Exercises)
+- 1.4 - The Command Line (No Questions or Exercises)
 
 ## Chapter 2: The Core Python Language I
 - [X] 2.1 - The Python Shell
@@ -30,12 +30,12 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 4.2 - Python Objects III: Dictionaries and Sets
 - [X] 4.3 - Pythonic Idioms: "Syntactic Sugar"
 - [X] 4.4 - Operating-System Services
-- [X] 4.5 - Modules and Packages (No Questions or Exercises)
+- 4.5 - Modules and Packages (No Questions or Exercises)
 - [ ] 4.6 - An introduction to Object-Oriented Programming
 
 ## Chapter 5: IPython and Jupyter Notebook
  - [ ] 5.1 - IPython
- - [X] 5.2 - JupyterNotebook (No Questions or Exercises)
+ - 5.2 - JupyterNotebook (No Questions or Exercises)
 
 ## Chapter 6: NumPy
  - [ ] 6.1 - Basic Array Methods
@@ -47,12 +47,12 @@ For more info, visit [scipython.com](https://scipython.com/).
  - [ ] 6.7 - Discrete Fourier Transforms
 
 ## Chapter 7: Matplolib
- - [ ] 7.1 - Line Plots and Scatter Plots
- - [ ] 7.2 - Plot Customization and Refinement
- - [ ] 7.3 - Bar Charts, Pie Charts, and Polar Plots
+ -  7.1 - Line Plots and Scatter Plots (No Questions or Exercises)
+ - 7.2 - Plot Customization and Refinement (No Questions or Exercises)
+ - 7.3 - Bar Charts, Pie Charts, and Polar Plots (No Questions or Exercises)
  - [ ] 7.4 - Annotating Plots
  - [ ] 7.5 - Countour Plots and Heatmaps
- - [ ] 7.6 - Three-Dimensional Plots
+ -  7.6 - Three-Dimensional Plots (No Questions or Exercises)
  - [ ] 7.7 - Animation
 
 ## Chapter 8: SciPy
@@ -72,4 +72,4 @@ For more info, visit [scipython.com](https://scipython.com/).
 ## Chapter 10: General Scientific Programing
  - [ ] 10.1 - Floating-Point Arithmetic
  - [ ] 10.2 - Stability and Conditioning
- - [ ] 10.3 - Programming Techniques and Software Development
+ - 10.3 - Programming Techniques and Software Development (No Questions or Exercises)
