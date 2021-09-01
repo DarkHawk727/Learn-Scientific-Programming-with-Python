@@ -35,7 +35,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 
 ## Chapter 5: IPython and Jupyter Notebook
  - [ ] 5.1 - IPython
- - [ ] 5.2 - JupyterNotebook
+ - [X] 5.2 - JupyterNotebook
 
 ## Chapter 6: NumPy
  - [ ] 6.1 - Basic Array Methods
