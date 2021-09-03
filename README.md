@@ -1,8 +1,7 @@
 # Learn-Scientific-Programming-with-Python
 Learn to master basic programming tasks from scratch with real-life, scientifically relevant examples and solutions drawn from both science and engineering. Students and researchers at all levels are increasingly turning to the powerful Python programming language as an alternative to commercial packages and this fast-paced introduction moves from the basics to advanced concepts in one complete volume, enabling readers to gain proficiency quickly. Beginning with general programming concepts such as loops and functions within the core Python 3 language, and moving on to the NumPy, SciPy and Matplotlib libraries for numerical programming and data visualization, this textbook also discusses the use of Jupyter Notebooks to build rich-media, shareable documents for scientific analysis. The second edition features a new chapter on data analysis with the pandas library and comprehensive updates, and new exercises and examples. A final chapter introduces more advanced topics such as floating-point precision and algorithm stability, and extensive online resources support further study. This textbook represents a targeted package for students requiring a solid foundation in Python programming.
 
-Repository for the questions and exercises for the 2nd Edition of Learn Scientific Programming with Python (since all of them aren't included).
-
+Repository for the questions and exercises for the 2nd Edition of Learn Scientific Programming with Python.
 For more info, visit [scipython.com](https://scipython.com/).
 
 ## Chapter 1: Introduction
@@ -30,7 +29,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 4.2 - Python Objects III: Dictionaries and Sets
 - [X] 4.3 - Pythonic Idioms: "Syntactic Sugar"
 - [X] 4.4 - Operating-System Services
-- 4.5 - Modules and Packages *(No Questions or Exercises)*
+- [ ] 4.5 - Modules and Packages *(No Questions or Exercises)*
 - [ ] 4.6 - An introduction to Object-Oriented Programming
 
 ## Chapter 5: IPython and Jupyter Notebook
