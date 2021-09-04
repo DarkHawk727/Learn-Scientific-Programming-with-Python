@@ -29,7 +29,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 4.2 - Python Objects III: Dictionaries and Sets
 - [X] 4.3 - Pythonic Idioms: "Syntactic Sugar"
 - [X] 4.4 - Operating-System Services
-- [ ] 4.5 - Modules and Packages *(No Questions or Exercises)*
+- [X] 4.5 - Modules and Packages *(No Questions or Exercises)*
 - [ ] 4.6 - An introduction to Object-Oriented Programming
 
 ## Chapter 5: IPython and Jupyter Notebook
