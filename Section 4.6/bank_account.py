@@ -7,30 +7,29 @@ class BankAccount:
         Initialize the BankAccount class with a customer , account number
         and opening balance (which defaults to 0.)
         """
-        # Luhn's Algo=================================================
-        summation = 0
 
-        temp = list(str(account_number).replace(' ', ''))
-        numbers = list(map(int, temp))
-        digits = numbers[::-1]
-
-        for i in range(len(digits)):
-            if i % 2 == 1:
-                digits[i] = 2 * digits[i]
-            if digits[i] > 9:
-                digits[i] = digits[i] // 10 + digits[i] % 10
-            summation += digits[i]
-
-        if summation % 10 == 0:
-            print('Valid Credit Card Number.')
-            
-        else:
-            print('Invalid Credit Card Number.')
-            return
-        # ============================================================
         self.customer = customer
         self.account_number = account_number
         self.balance = balance
+
+
+    def set_account_num(self, account_number):
+        if not self.verify_account_num:
+            raise ValueError('INVALID ACCOUNT NUMBER!')
+
+        self.account_number = account_number
+
+
+    def validate_account_num(self, account_number):
+        ccl = [int(digit) for digit in str(account_number) if digit not in ('-', ' ')]
+
+        for i in range(len(ccl)-2, 0, -2):
+            ccl[i] *= 2
+            if ccl[i] > 9:
+                ccl[i] = 1 + (ccl[i] - 10)
+        checksum = sum(ccl) % 10
+        return not checksum
+
 
     def deposit(self, amount):
 
@@ -38,7 +37,8 @@ class BankAccount:
         if amount > 0:
             self.balance += amount
         else:
-            print('Invalid deposit amount:', amount)
+            print('INVALID DEPOSIT AMOUNT:', amount)
+
 
     def withdraw(self, amount):
 
@@ -48,27 +48,16 @@ class BankAccount:
         """
         if amount > 0:
             if amount > self.balance:
-                print('Insufficient funds')
+                print('INSUFFICIENT FUNDS!')
             else:
                 self.balance -= amount
         else:
-            print('Invalid withdrawal amount:', amount)
+            print('INVALID WITHDRAWAL AMOUNT: ', amount)
     
+
     def check_balance(self):
         """" Print a statement of the account balance. """
         print('The balance of of account number {:d} is {:s}{:0.2f}'.format(self.account_number, self.currency, self.balance))
-
-
-class SavingsAccount(BankAccount):
-    """" A class repersenting a savings account. """
-
-    def __init__(self, customer, account_number, interest_rate, balance):
-        self.interest_rate = interest_rate
-        super().__init__(customer, account_number, balance=balance)
-
-    def add_interest(self):
-        """" Add interset to the account at the rate self.interest_rate. """
-        self.balance *= (1.0 + self.interest_rate / 100)
 
 
 class CurrentAccount(BankAccount):
@@ -80,23 +69,28 @@ class CurrentAccount(BankAccount):
         self.transaction_limit = transaction_limit
         super().__init__(customer , account_number , balance)
 
+
     def withdraw(self , amount):
         """
         Withdraw amount if sufficient funds exist in the account and amount
         is less than the single transaction limit.
         """
-        if amount + self.overdraft <= 0:
-            print('Invalid withdrawal amount:', amount)
+        if amount  <= 0:
+            print('INVALID WITHDRAWAL AMOUNT: ', amount)
             return
-        if amount > self.balance:
-            print('Insufficient funds')
+
+        if amount > self.balance + self.overdraft:
+            print('INSUFFICIENT FUNDS!')
             return
+
         if amount > self.transaction_limit:
             print('{0:s}{1:.2f} exceeds the single transaction limit of'
             ' {0:s}{2:.2f}'.format(self.currency , amount ,
             self.transaction_limit))
             return
+            
         self.balance -= amount
+
 
     def apply_annual_fee(self):
         """ Deduct the annual fee from the account balance. """
