@@ -32,3 +32,5 @@ plt.plot(r, Pr, lw=2, c='r')
 plt.xlabel('R')
 plt.ylabel('P(R)')
 plt.show()
+
+polymer.save_SVG()

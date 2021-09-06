@@ -62,3 +62,42 @@ class Polymer:
             self.Rg += x**2 + y**2 + z**2
         self.Rg = math.sqrt(self.Rg / self.N)
         return self.Rg
+
+    
+    def save_SVG(self, svg_name='C:/Users/arjun/Learn-Scientific-Programming-with-Python-Solutions/Section 4.6/P4.6.2/polymer_svg.svg'):
+        canvas_height = 500
+        canvas_width = 500
+        f = open(svg_name, 'w')
+        print("""<?xml version="1.0" encoding="utf-8"?>
+                 <svg xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="{}" height="{}" style="background: {}">""".format(
+                        canvas_width, canvas_height, '#ffffff'), file=f)
+
+        ccx = canvas_width / 2
+        ccy = canvas_height / 2
+
+        scale = 10
+
+        x, y, z = zip(*self.xyz)
+
+        x_min = min(x)
+        x_max = max(x)
+        y_min = min(y)
+        y_max = max(y)
+
+        d_max = max(x_max - x_min, y_max - y_min)
+
+        scale = min(canvas_height, canvas_height) / d_max
+
+        for i in range(1, self.N):
+            x1 = x[i-1] * scale + ccx
+            y1 = y[i-1] * scale + ccy
+            x2 = x[i] * scale + ccx
+            y2 = y[i] * scale + ccy
+            print('<line x1="{:.1f}" y1="{:.1f}" x2="{:.1f}" y2="{:.1f}"'
+                        ' style="stroke: {:s}; stroke-width: {:d};"/>'.format(
+                   x1, y1, x2, y2, 'black', 2), file=f)
+        print('</svg>', file=f)
+
+
