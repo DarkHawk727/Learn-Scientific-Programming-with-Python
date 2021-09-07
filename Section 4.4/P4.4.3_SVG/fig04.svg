@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+                 <svg xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="500" height="500" style="background: #ffffff">
+<circle cx="250.0" cy="250.0" r="200" style="stroke: black; stroke -width: 2px;
+                                                                      fill: none;"/><circle cx="440.2" cy="311.8" r="20" style="stroke: red; fill: red;"/></svg>
