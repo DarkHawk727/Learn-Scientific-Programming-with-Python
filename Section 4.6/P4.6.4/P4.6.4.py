@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib as plt
 from experiment import Experiment
 
 R = 8.314
