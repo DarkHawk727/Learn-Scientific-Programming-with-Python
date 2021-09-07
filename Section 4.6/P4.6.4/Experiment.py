@@ -11,4 +11,4 @@ class Experiment():
         self.c = None
 
     def load_data(self, filepath):
-        
+        pass
