@@ -16,9 +16,8 @@ class Experiment():
     def load_data(self, filepath):
         try:
             with open(filepath, 'r') as data:
-                data.readline()
                 x, y = [], []
-                for line in data.readlines():
+                for line in data.readlines()[1:]:
                     try:
                         x.append(float(line.split()[0]))
                         y.append(float(line.split()[1]))
@@ -66,7 +65,7 @@ class Experiment():
             y_fit = self.m * x_fit + self.c
             plt.plot(x_fit, y_fit, 'k', lw=2)
         else:
-            plt.plot(self.x, self.y)
+            plt.scatter(self.x, self.y)
         
         if fig_filename:
             plt.savefig(fig_filename)
