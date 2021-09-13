@@ -33,7 +33,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 4.6 - An introduction to Object-Oriented Programming
 
 ## Chapter 5: IPython and Jupyter Notebook
- - [ ] 5.1 - IPython
+ - [X] 5.1 - IPython
  - 5.2 - JupyterNotebook *(No Questions or Exercises)*
 
 ## Chapter 6: NumPy
