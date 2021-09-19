@@ -45,7 +45,7 @@ For more info, visit [scipython.com](https://scipython.com/).
  - [ ] 6.6 - Random Sampling
  - [ ] 6.7 - Discrete Fourier Transforms
 
-## Chapter 7: Matplolib
+## Chapter 7: Matplotlib
  - 7.1 - Line Plots and Scatter Plots *(No Questions or Exercises)*
  - 7.2 - Plot Customization and Refinement *(No Questions or Exercises)*
  - 7.3 - Bar Charts, Pie Charts, and Polar Plots *(No Questions or Exercises)*
