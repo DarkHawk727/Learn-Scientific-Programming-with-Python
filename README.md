@@ -45,7 +45,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 ## Chapter 6: NumPy
 
 - [x] 6.1 - Basic Array Methods
-- [ ] 6.2 - Reading and Writing an Array to a File
+- [X] 6.2 - Reading and Writing an Array to a File
 - [ ] 6.3 - Statistical Methods
 - [ ] 6.4 - Polynomials
 - [ ] 6.5 - Linear Algebra
