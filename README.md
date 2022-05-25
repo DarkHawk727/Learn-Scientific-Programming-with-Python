@@ -47,7 +47,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [x] 6.1 - Basic Array Methods
 - [X] 6.2 - Reading and Writing an Array to a File
 - [X] 6.3 - Statistical Methods
-- [ ] 6.4 - Polynomials
+- [X] 6.4 - Polynomials
 - [ ] 6.5 - Linear Algebra
 - [ ] 6.6 - Random Sampling
 - [ ] 6.7 - Discrete Fourier Transforms
