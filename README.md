@@ -69,7 +69,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - 8.3 - Interpolation _(No Questions or Exercises)_
 - [ ] 8.4 - Optimization, Data-Fitting and Root-Finding
 
-## Chapter 9: Data Analysis with pandas:
+## Chapter 9: Data Analysis with pandas
 
 - 9.1 - Introduction to pandas _(No Questions or Exercises)_
 - [ ] 9.2 - Reading and Writing `Series` and `DataFrames`
