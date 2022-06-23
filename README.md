@@ -49,7 +49,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 6.3 - Statistical Methods
 - [X] 6.4 - Polynomials
 - [X] 6.5 - Linear Algebra
-- [ ] 6.6 - Random Sampling
+- [X] 6.6 - Random Sampling
 - [ ] 6.7 - Discrete Fourier Transforms
 
 ## Chapter 7: Matplotlib
