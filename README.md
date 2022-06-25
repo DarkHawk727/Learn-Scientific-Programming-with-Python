@@ -57,7 +57,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - 7.1 - Line Plots and Scatter Plots _(No Questions or Exercises)_
 - 7.2 - Plot Customization and Refinement _(No Questions or Exercises)_
 - 7.3 - Bar Charts, Pie Charts, and Polar Plots _(No Questions or Exercises)_
-- [ ] 7.4 - Annotating Plots
+- [X] 7.4 - Annotating Plots
 - [ ] 7.5 - Countour Plots and Heatmaps
 - 7.6 - Three-Dimensional Plots _(No Questions or Exercises)_)
 - [ ] 7.7 - Animation
