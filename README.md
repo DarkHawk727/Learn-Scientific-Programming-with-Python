@@ -60,7 +60,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 7.4 - Annotating Plots
 - [X] 7.5 - Countour Plots and Heatmaps
 - 7.6 - Three-Dimensional Plots _(No Questions or Exercises)_)
-- [ ] 7.7 - Animation
+- [X] 7.7 - Animation
 
 ## Chapter 8: SciPy
 
