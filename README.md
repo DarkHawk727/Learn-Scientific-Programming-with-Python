@@ -64,7 +64,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 
 ## Chapter 8: SciPy
 
-- [ ] 8.1 - Physical Constants and Special Functions
+- [X] 8.1 - Physical Constants and Special Functions
 - [ ] 8.2 - Integration and Ordinary Differential Equations
 - 8.3 - Interpolation _(No Questions or Exercises)_
 - [ ] 8.4 - Optimization, Data-Fitting and Root-Finding
