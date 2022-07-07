@@ -72,7 +72,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 ## Chapter 9: Data Analysis with pandas
 
 - 9.1 - Introduction to pandas _(No Questions or Exercises)_
-- [ ] 9.2 - Reading and Writing `Series` and `DataFrames`
+- [X] 9.2 - Reading and Writing `Series` and `DataFrames`
 - [ ] 9.3 - More Advanced Indexing
 - [ ] 9.4 - Data Cleaning and Exploration
 - [ ] 9.5 - Data Grouping and Aggregation
