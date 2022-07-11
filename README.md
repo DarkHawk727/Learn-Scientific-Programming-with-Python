@@ -75,7 +75,7 @@ For more info, visit [scipython.com](https://scipython.com/).
 - [X] 9.2 - Reading and Writing `Series` and `DataFrames`
 - [X] 9.3 - More Advanced Indexing
 - [X] 9.4 - Data Cleaning and Exploration
-- [ ] 9.5 - Data Grouping and Aggregation
+- [X] 9.5 - Data Grouping and Aggregation
 - 9.6 - Examples (No Questions or Exercises)
 
 ## Chapter 10: General Scientific Programing
