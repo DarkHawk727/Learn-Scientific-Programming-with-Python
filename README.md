@@ -81,5 +81,5 @@ For more info, visit [scipython.com](https://scipython.com/).
 ## Chapter 10: General Scientific Programing
 
 - [X] 10.1 - Floating-Point Arithmetic
-- [ ] 10.2 - Stability and Conditioning
+- [X] 10.2 - Stability and Conditioning
 - 10.3 - Programming Techniques and Software Development _(No Questions or Exercises)_
